@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт разработчика</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .app-link {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        .app-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Логотип разработчика" class="logo">
+        <h1>Имя разработчика</h1>
+        <p>Apps</p>
+        <a href="https://play.google.com/store/apps/details?id=com.example.app" class="app-link">
+            <img src="app-image.jpg" alt="Изображение приложения" width="150" height="150">
+            <p>Название приложения</p>
+        </a>
+        <p>Контактный email: <a href="mailto:developer@example.com" class="app-link">developer@example.com</a></p>
+    </div>
+</body>
+</html>
